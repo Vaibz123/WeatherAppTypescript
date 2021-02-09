@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 
 let ejs=require('ejs');
 let city:string="Thane";
-let apiKey:string="8163d4bdd3efb940773f3b9c796fb070";
+let apiKey:string=API_KEY;
 let url_api:string=`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
 
